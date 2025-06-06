@@ -20,7 +20,7 @@ public class Matches {
                 System.out.println("Недопустимый ход игры, сделайте ещё одну попытку, палочек осталось " + count + " шт.");
             }
         }
-        turn = !turn;
+
         if (!turn) {
             System.out.println("Выиграл первый игрок");
         } else {
